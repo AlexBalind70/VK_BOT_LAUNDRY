@@ -10,7 +10,7 @@ class PositionUser:
             host='localhost',
             port='3306',
             user='root',
-            password='masterDB_70',
+            password='',
             database='position_user'
         )
         self.cursor_position = self.conn_position.cursor()
