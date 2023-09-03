@@ -1,7 +1,7 @@
 import MySQLdb
 
 
-db = MySQLdb.connect("localhost","root","masterDB_70")
+db = MySQLdb.connect("localhost","root","")
 cursor = db.cursor()
 
 cursor.execute("DROP DATABASE laundry_scheduler")
